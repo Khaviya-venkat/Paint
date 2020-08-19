@@ -1,0 +1,60 @@
+canvas{
+	position:absolute;
+	border: solid black 1px;
+}
+
+#colors{
+	float: right;
+	margin-right: 400px;
+	margin-top: 50px;
+}
+
+#red{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: red;
+}
+
+#yellow{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: yellow;
+}
+
+#blue{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: blue;
+}
+
+#green{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: green;
+}
+
+#orange{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: orange;
+}
+
+#black{
+	border-radius: 5px;
+	margin: 10px;
+	background-color: black;
+}
+
+#white{
+	margin: 10px;
+	border-radius: 5px;
+	background-color: white;
+	border: solid black 1px;
+}
+
+button{
+	width: 50px;
+	border-radius: 5px;
+	height: 30px;
+	border: none;
+}
