@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint</title>
+	<link rel="stylesheet" type="text/css" href="paint.css">
+</head>
+<body onload="init()">
+	<div id="colors">
+	    <p>
+	    	Choose a color
+			<input type="color" id="color">
+	    </p>
+	    <button id="white" onclick="colorchange(white)"></button>
+    	<button onclick="erase()">clear</button>
+	</div>
+	<canvas width="500" height="500"></canvas>
+
+	<script type="text/javascript" src="paint.js"></script>
+
+</body>
+</html>
